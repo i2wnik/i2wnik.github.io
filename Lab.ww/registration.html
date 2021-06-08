@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>W&W</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,700,700i&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Moderna - v4.1.0
+  * Template URL: https://bootstrapmade.com/free-bootstrap-template-corporate-moderna/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center ">
+    <div class="container d-flex justify-content-between align-items-center">
+
+      <div class="logo">
+        <h1 class="text-light"><a href="index.html"><span>W&W</span></a></h1>
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+      </div>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+         <li><a class="" href="index.html">Home</a></li>
+         <li><a href="about.html">About us</a></li>
+         <li><a href="tours.html">Tours</a></li>
+         <li><a class="active"href ="registration.html">Registration</a></li>
+         <li><a href="payment.html">Payment</a></li>
+            <li><a href="Feedback.html">Feedback</a></li>
+         
+          
+         
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <main id="main">
+
+    <!-- ======= Contact Section ======= -->
+    <section class="breadcrumbs">
+      <div class="container">
+
+        <div class="d-flex justify-content-between align-items-center">
+          <h2>Registration</h2>
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li>Registration</li>
+          </ol>
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+    <script src="https://yastatic.net/es5-shims/0.0.2/es5-shims.min.js"></script>
+  <script src="https://yastatic.net/share2/share.js"></script>
+  <style>
+    /*to change font-family*/
+    @import url('https://fonts.googleapis.com/css?family=Dancing+Script|Playfair+Display&display=swap');
+    
+    *{
+      margin: 0;
+      padding: 0;
+    }
+    header{
+      width: 100%;
+      padding: 10px 0.5% 0px 0.5%;
+      /*I write that header's position is fixed, because it does not change its position when scrolling through a web page*/
+      position: fixed; 
+    }
+    /*Before scrolling my logo is white*/
+    header #logo{
+      color: white;
+      cursor: pointer;
+    }
+    header #logo p{
+      font-size: 1.7em;
+      margin-left: 40px;
+      font-family: 'Dancing Script', cursive;
+    }
+    #menu {
+      text-align: center;
+      font-size: 1em;
+      padding-top: 12px;
+      margin-bottom: 10px;
+    }
+    /*Before scrolling menu bar's elements hover is yellow*/
+    #menu > a:hover{
+      color: yellow;
+    }
+    #menu a{
+      color: wheat;
+      margin-right: 7%;
+    }
+    .fixed {
+      /*an element can be located either below or above other objects; their placement along the z-axis is controlled by z-index. The higher the value, the higher the element*/
+      z-index: 5000;
+      background-color: wheat;
+      border-bottom: 1px solid silver;
+    }
+    /*After scrolling logo and menu bar's elements become black*/
+    header.fixed #logo {
+      color: black;
+    }
+    .fixed #menu a {
+      color: black;
+    }
+    .fixed #menu a:hover {
+      color: grey;
+    }
+
+    /*I put the background-image behind registration form*/
+        #cntc{
+          background-image: url(https://s.zagranitsa.com/images/articles/2994/870x486/fb99e2df54289593c798f6cb74e1c265.jpg?1456956025);
+      background-blend-mode: multiply;
+      background-color: #5B7085;
+      background-size: cover;
+      color: white;
+      padding-top: 50px;
+      width: 100%;
+      height: 500px;
+    }
+    
+    #finput{
+      margin-top: 20px;
+      width: 45%;
+      margin-left: 30%;
+      font-size: 1.1em;
+    }
+    #finput label{
+      cursor: pointer;
+      font-size: 1.3em;
+    }
+    #finput input{
+      margin-bottom: 10px;
+      width: 75%;
+      padding: 10px 15%;
+      border-radius: 7px;
+      border: 2px solid silver;
+      font-size: 1em;
+    }
+    #finput select:focus{
+      border-color: wheat;
+    }
+    #finput select{
+      margin-bottom: 10px;
+      width: 75%;
+      padding: 10px 2%;
+      border-radius: 7px;
+      border: 2px solid grey;
+      font-size: 1em;
+      color: #4a4a4a;
+    }
+    #finput input:focus{
+      border-color: wheat;
+    }
+    .btn{
+      float: left;
+      border-radius: 5px;
+      padding: 5px 9px;
+      font-size: 1.2em;
+      background-color: wheat;
+    }
+    .btn:hover{
+      cursor: pointer;
+      opacity: 0.7;
+    }
+    footer{
+      width: 100%;
+      padding: 10px 0.5% 0px 0.5%;
+      height: 150px;
+      background-color: wheat;
+    }
+    footer #logo{
+      flex: 1;
+      color: black;
+      cursor: pointer;
+    }
+    footer #logo p{
+      font-size: 1.7em;
+      margin-left: 50px;
+      font-family: 'Dancing Script', cursive;
+    }
+    footer{
+      display: flex;
+      flex-direction: row;
+    }
+    #me {
+      flex: 2;
+      text-align: center;
+      font-size: 1.2em;
+      padding-top: 12px;
+      margin-bottom: 10px;
+    }
+    #icons{
+      margin: 20px;
+    }
+    
+    @media (min-width: 700px) {
+      #logo {
+        float: left;
+        width: 30%;
+        font-size: 1.7em;
+      }
+      #menu {
+        float: right;
+        width: 65%;
+      }
+    }
+
+    @media (max-width: 700px) {
+      #logo {
+        margin-top: 15px;
+        width: 30%;
+        font-size: 2.5em;
+      }
+      #menu {
+        float: left;
+        width: 100%;
+      }
+      footer #logo p{
+        font-size: 1em;
+        margin-left: 40px;
+      }
+      #me{
+        font-size: 0.9em;
+      }
+      #finput{
+        width: 40%;
+        font-size: 0.7em;
+      }
+      #cntc{
+        padding-top: 195px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!--Header-->
+ 
+<!--There is registration form, to create it, First I create div, then inside of this div I create table-->
+  <div id="cntc">
+  <h2 style="text-align: center;">Registration form</h2>
+  <form id="finput" onsubmit="return register()">
+    <table>
+  <tr>
+  <td style="width: 33%"><label for="fname">Name:</label></td>
+  <td><input type="text" name="fname" id="fname" minlength="2" maxlength="32" required></td></tr>
+  <tr>
+  <td style="width: 33%"><label for="lname">Last Name:</label></td>
+  <td><input type="text" name="lname" id="lname" minlength="2" maxlength="32" required></td>
+  </tr>
+  
+  <tr>
+  <td style="width: 30%"><label for="region">Status:</label></td>
+  <td style="width: 30px">
+    <select name="Status">
+      <option>Student</option>
+      <option>Pupil</option>
+      <option>Employee</option>
+      <option>Unemployed</option>
+    </select>
+  </td></tr>
+  <tr>
+
+  <td style="width: 30%"><label for="region">Tours:</label></td>
+  <td style="width: 30px">
+    <select name="region">
+      <option>Almaty</option>
+      <option>Nur-Sultan</option>
+      <option>Shymkent</option>
+      <option>Turkestan</option>
+      <option>Aktau</option>
+      <option>Karaganda Region</option>
+      <option>Almaty Region</option>
+      <option>Taraz</option>
+      
+    </select>
+  </td>
+  </tr>
+  <tr>
+  <td style="width: 33%"><label for="email">E-mail:</label></td>
+  <td><input type="text" name="email" id="email" minlength="1" maxlength="32" required></td>
+  </tr>
+  <tr>
+  <td style="width: 33%"><label for="Password">Password:</label></td>
+  <td><input type="password" name="Password"  minlength="8" required></td>
+  </tr></table><br>
+    <input type="submit" name="Register" value="register" class="btn" onclick="thanks()">
+  </form>
+</div>
+
+  <!-- ======= Footer ======= -->
+ 
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/purecounter/purecounter.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
